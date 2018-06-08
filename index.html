@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="div-playerNames">
+      <div class="player1">
+        <h2 class="player1-text">Player 1
+          <h3 class="player1Turn"></h3>
+        </h2>
+      </div>
+      <div class="player2">
+        <h2 class="player2-text">Player 2
+          <h3 class="player2Turn"></h3>
+        </h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="gameboard">
+      <table>
+        <tr>
+          <td class="boxes b1"></td>
+          <td class="boxes b2"></td>
+          <td class="boxes b3"></td>
+        </tr>
+        <tr>
+          <td class="boxes b4"></td>
+          <td class="boxes b5"></td>
+          <td class="boxes b6"></td>
+        </tr>
+        <tr>
+          <td class="boxes b7"></td>
+          <td class="boxes b8"></td>
+          <td class="boxes b9"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="reset-button">
+      <button type="button">RESET</button>
+    </div>
+  </main>
+
+</body>
+</html>
